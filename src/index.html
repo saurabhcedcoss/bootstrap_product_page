@@ -13,19 +13,26 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
       <div class="container px-4 px-lg-5">
         <a class="navbar-brand" href="#!"><img src="./assets/logo.png" /></a>
         <button
@@ -39,109 +46,82 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+        <div
+          class="collapse navbar-collapse p-2 justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
+              <dt
+                class="nav-link dropdown-toggle text-dark p-3"
                 id="homeDropdown"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                >Home</a
               >
-              <ul class="dropdown-menu" aria-labelledby="homeDropdown">
-                <li><a class="dropdown-item" href="#!">All Products</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-              </ul>
+                Home
+              </dt>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
+              <dt
+                class="nav-link dropdown-toggle text-dark p-3"
                 id="navbarDropdown"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                >Blog</a
               >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#!">All Products</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-              </ul>
+                Blog
+              </dt>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
+              <dt
+                class="nav-link dropdown-toggle text-dark p-3"
                 id="navbarDropdown"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                >Portfolio</a
               >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#!">All Products</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-              </ul>
+                Portfolio
+              </dt>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
+              <dt
+                class="nav-link dropdown-toggle text-primary p-3"
                 id="navbarDropdown"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                >Shop<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">New</span></a
               >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#!">All Products</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-              </ul>
+                Shop<span class="badge rounded-pill bg-danger ms-2">New</span>
+              </dt>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
+              <dt
+                class="nav-link dropdown-toggle text-dark p-3"
                 id="navbarDropdown"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                >Variations</a
               >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#!">All Products</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-              </ul>
+                Variations
+              </dt>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
+              <dt
+                class="nav-link dropdown-toggle text-dark p-3"
                 id="navbarDropdown"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                >Elements</a
               >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#!">All Products</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-              </ul>
+                Elements
+              </dt>
             </li>
           </ul>
           <span class="d-flex">
@@ -151,73 +131,229 @@
         </div>
       </div>
     </nav>
+    <hr class="text-secondary" />
+    <section class="container pt-3 pb-1">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="#" class="link-secondary text-decoration-none">Home</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#" class="link-secondary text-decoration-none">Shop</a>
+          </li>
+          <li class="breadcrumb-item fw-bold">Android Phone</li>
+        </ol>
+      </nav>
+    </section>
+    <hr class="text-secondary" />
     <!-- SIDE FLOAT START-->
-    <nav class="navbar sticky-top navbar-light shadow p-3 side_sticky float-end">
-      <ul class="nav flex-column">
-      <li class="nav-item">
-        <a class="nav-link disabled"><i class="bi bi-stack"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#"><i class="bi bi-eyeglasses"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#"><i class="bi bi-bag"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-question-circle"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-life-preserver"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-envelope"></i></a>
-      </li>
-    </ul>
-  </nav>
-  <!-- SIDE FLOAT END-->
-    <!-- Product section-->
-    <section class="py-5">
-      <div class="container px-4 px-lg-5 my-5">
-        <div class="row gx-4 gx-lg-5 align-items-center">
-          <div class="col-md-6">
-            <img
-              class="card-img-top mb-5 mb-md-0"
-              src="./assets/2-600x600.png"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-6">
-            <div class="small mb-1">SKU: BST-498</div>
-            <h1 class="display-5 fw-bolder">Shop item template</h1>
-            <div class="fs-5 mb-5">
-              <span class="text-decoration-line-through">$45.00</span>
-              <span>$40.00</span>
+    <div class="d-block sidebar sticky-top justify-content-end mb-lg-5">
+      <nav
+        class="navbar  navbar-light shadow p-3 side_sticky float-end"
+      >
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link disabled"><i class="bi bi-stack"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#"
+              ><i class="bi bi-eyeglasses"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#"><i class="bi bi-bag"></i></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              ><i class="bi bi-question-circle"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              ><i class="bi bi-life-preserver"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              ><i class="bi bi-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- SIDE FLOAT END-->
+    <!-- Product section start-->
+    <div class="container">
+      <div class="row mb-lg-5">
+        <div class="col p-3 m-2">
+          <span class="position-relative top-0 start-100 translate-middle badge rounded-pill bg-danger">Sale</span>
+          <img src="./assets/2-600x600.png" class="img-fluid" />
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col mt-5">
+              <h1 class="fw-bolder fs-1">Android Phone</h1>
             </div>
-            <p class="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Praesentium at dolorem quidem modi. Nam sequi consequatur
-              obcaecati excepturi alias magni, accusamus eius blanditiis
-              delectus ipsam minima ea iste laborum vero?
-            </p>
-            <div class="d-flex">
-              <input
-                class="form-control text-center me-3"
-                id="inputQuantity"
-                type="num"
-                value="1"
-                style="max-width: 3rem"
-              />
-              <button class="btn btn-outline-dark flex-shrink-0" type="button">
-                <i class="bi-cart-fill me-1"></i>
-                Add to cart
+          </div>
+          <div class="row mt-5">
+            <div class="col-sm-2 mt-2">
+              <div class="text-muted fw-bolder fs-3"><s>$199.00</s></div>
+            </div>
+            <div class="col-sm-4 ms-4 pt-0">
+              <span class="fw-bolder fs-2">$179.00</span>
+            </div>
+            <div class="col mt-2">
+              <span class="float-end fw-bolder">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>(1 review)</span
+              >
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col">
+              <p class="blockquote lh-base">
+                Folly words widow one downs few age every seven. If miss part by
+                fact he park just shew. Discovered had get considered projection
+                who favourable. Necessary up knowledge it tolerably.
+              </p>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-6">
+              <ul class="list-group list-group-horizontal">
+                <li
+                  class="list-group-item rounded-circle border-0 me-4 bg-light fs-4 fw-bolder"
+                >
+                  <i class="bi bi-arrow-up-short"></i>
+                </li>
+                <li class="list-group-item border-0 mt-1 pe-0 ps-0 fw-bold">
+                  1
+                </li>
+                <li
+                  class="list-group-item rounded-circle border-0 ms-4 bg-light text-secondary fs-4 fw-bolder"
+                >
+                  <i class="bi bi-arrow-down-short"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <button
+                type="button"
+                class="btn btn-primary float-end p-2 fw-bold text-sm p-2"
+              >
+                <i class="bi bi-cart fs-6"></i> Add to Cart
               </button>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-2">
+              <span class="fw-bold fs-5">SKU:</span
+              ><span class="text-muted ms-2 fs-5 fw-bold">12</span>
+            </div>
+            <div class="row mt-3">
+              <div class="col-2">
+                <span class="fw-bold fs-5">Category:</span
+                ><a
+                  href="#"
+                  class="link-item text-primary ms-2 fs-5 fw-bold text-decoration-none"
+                  >Phones</a
+                >
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-4">
+                <span class="fw-bold fs-5">Tag:</span>
+                <span class="text-muted ms-2 fs-5 fw-bold">Screen</span>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-4">
+              <button class="btn btn-light">
+                <i class="bi bi-share text-dark me-2"></i><span class="m-2">Share</span> 
+              </button>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link border-0"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#home"
+                    type="button"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                  >
+                    Description
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link text-secondary border-0"
+                    id="profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile"
+                    aria-selected="false"
+                  >
+                    Reviews (1)
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active border-top"
+                  id="home"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                >
+                  <p class="mt-4">
+                    Unwilling departure education is be dashwoods or an. Use off
+                    agreeable law unwilling sir deficient curiosity instantly.
+                    Easy mind life fact with see has bore ten. Parish any chatty
+                    can elinor direct for former. Up as meant widow equal an
+                    share least.
+                  </p>
+                </div>
+                <div
+                  class="tab-pane fade border-top"
+                  id="profile"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                >
+                  ...
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <div class="container" style="margin-bottom: 8px">
-      <div class="row">
+    </div>
+    <!-- PRoduct section end -->
+    <!-- Sprecial feature section start -->
+    <div class="container">
+      <div class="row mb-2 mt-lg-5">
         <div class="col-sm">
           <div class="d-inline-block" style="margin-right: 17px">
             <i class="bi bi-cart" style="font-size: 36px; color: #294cff"></i>
@@ -264,6 +400,7 @@
         </div>
       </div>
     </div>
+    <!-- special feature section end -->
     <!-- Footer-->
     <footer class="py-5 bg-dark">
       <div class="container">
@@ -277,25 +414,25 @@
                 <span class="p-2"
                   ><i
                     class="bi bi-twitter"
-                    style="color: gray; font-size: 25px; margin-right: 25px;"
+                    style="color: gray; font-size: 25px; margin-right: 25px"
                   ></i
                 ></span>
                 <span class="p-2"
                   ><i
                     class="bi bi-instagram"
-                    style="color: gray; font-size: 25px; margin-right: 25px;"
+                    style="color: gray; font-size: 25px; margin-right: 25px"
                   ></i
                 ></span>
                 <span class="p-2"
                   ><i
                     class="bi bi-youtube"
-                    style="color: gray; font-size: 25px; margin-right: 25px;"
+                    style="color: gray; font-size: 25px; margin-right: 25px"
                   ></i
                 ></span>
                 <span class="p-2"
                   ><i
                     class="bi bi-whatsapp"
-                    style="color: gray; font-size: 25px; margin-right: 25px;"
+                    style="color: gray; font-size: 25px; margin-right: 25px"
                   ></i
                 ></span>
               </span>
@@ -307,49 +444,68 @@
               <div class="col">
                 <div class="col_footer">
                   Start Crafting <br />Epic <strong>Websites</strong>
-                  <br />Today!</div>
-                  <div> 
-                <button class="purchase_button btn btn-lg btn-primary">
-                  Purchase theme
-                </button>
+                  <br />Today!
+                </div>
+                <div>
+                  <button class="purchase_button btn btn-lg btn-primary">
+                    Purchase theme
+                  </button>
+                </div>
               </div>
+              <div class="col">
+                <div class="col_footer">
+                  <h6>Useful</h6>
+                </div>
+                <p>
+                  <a href="#">Documentation</a> <a href="#">Intro video</a>
+                  <a href="#">Showcase</a> <a href="#">Buy theme</a>
+                </p>
               </div>
-            <div class="col">
-              <div class="col_footer">
-                <h6>Useful</h6>
+              <div class="col">
+                <div class="col_footer">
+                  <h6>Keep in touch</h6>
+                </div>
+                <p>
+                  Nippon, Osaka, Crimson street 78-42 (10am-6pm EST, Mon-Fri)
+                </p>
+                <span class="col_email">Support@brand.com</span>
               </div>
-              <p><a href="#">Documentation</a> <a href="#">Intro video</a> <a href="#">Showcase</a> <a href="#">Buy theme</a></p>
+              <div class="col">
+                <div class="col_footer">
+                  <h6>Sign up for newsletter</h6>
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    class="footer_input"
+                    placeholder="E-mail Address"
+                  /><span style="margin: 5px"
+                    ><button class="footer_button btn-md">Send</button></span
+                  >
+                </div>
+                <small>* Information is not disclosed to third parties</small>
+              </div>
             </div>
-            <div class="col">
-              <div class="col_footer">
-              <h6>Keep in touch</h6>
-            </div>
-            <p>Nippon, Osaka, Crimson street 78-42 (10am-6pm EST, Mon-Fri)</p>
-            <span class="col_email">Support@brand.com</span>
           </div>
-            <div class="col"><div class="col_footer">
-              <h6>Sign up for newsletter</h6>
+          <div class="py-3 my-4">
+            <div class="container">
+              <div class="row">
+                <div class="col copyright">
+                  © 2021 Jevelin. Crafted by <strong>Shufflehound</strong>
+                </div>
+                <div class="col footer_link">
+                  <a href="#">Privacy policy</a
+                  ><a href="#">Terms & conditions</a>
+                </div>
+              </div>
             </div>
-            <div><input type="email" class="footer_input" placeholder="E-mail Address"><span style="margin: 5px;"><button class="footer_button btn-md">Send</button></span></div>
-            <small>* Information is not disclosed to third parties</small></div>
           </div>
-        </div>
-        <div class="py-3 my-4">
-          <div class="container">
-            <div class="row">
-              <div class="col copyright">
-                © 2021 Jevelin. Crafted by <strong>Shufflehound</strong>
-              </div>
-              <div class="col footer_link">
-                <a href="#">Privacy policy</a><a href="#">Terms & conditions</a>
-              </div>
-            </div>
         </div>
       </div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
 </html>
